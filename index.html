@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Notes App </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li>Notes App</li>
+                <li>Home</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" class="input" id="searchTxt"  placeholder="Search Your Notes..">
+        </div>
+    </div>
+
+    <!-- main section starts -->
+
+    <div class="main">
+        <div class="heading">
+            <h1>Welcome to my notes </h1>
+        </div>
+        <div class="section">
+        <div class="box-1">
+            <label for="input" class="label">Add Title:</label>
+            <div class="input-title">
+                <input class="Title" type="text" id="addTitle" placeholder="Add Title">
+            </div>
+        </div>
+            <div class="box-2">
+                <div class="text-area">
+                    <p class="para">Write Your Note</p>
+                 <textarea id="addTxt" cols="50" rows="5"></textarea>
+                </div>
+
+                <div class="btn">
+                    <button class="btn-1" id="addBtn">Add note</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- main section ends -->
+
+    <!-- Notes section starts -->
+    <div class="noteSection">
+        <div class="heading2">
+            <h2>Your Notes</h2>
+        </div>
+        <div class="noteBox" id="notes">
+           
+        </div>
+
+         <!-- <div class="note-cards" >
+            <div class="noteTitle">
+            <h3 class="para2"> note-1</h3>
+        </div>
+                <p class="NoteTxt">Hey!</p>
+                <div class=dltBtn>
+                    <button class="btn-2">Delete Note</button>
+                </div>
+        </div>  -->
+        
+
+        <!--<div class="note-cards" id="notes">
+            <div class="noteTitle">
+            <h3 class="para2"> note-1</h3>
+        </div>
+                <p class="NoteTxt">Hey!</p>
+                <div class=dltBtn>
+                    <button class="btn-2">Delete Note</button>
+                </div>
+        </div>
+        <div class="note-cards" id="notes">
+            <div class="noteTitle">
+            <h3 class="para2"> note-1</h3>
+        </div>
+                <p class="NoteTxt">Hey!</p>
+                <div class=dltBtn>
+                    <button class="btn-2">Delete Note</button>
+                </div>
+        </div> -->
+
+        
+
+    
+<script src="App.js"></script>
+
+</body>
+</html>
