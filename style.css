@@ -169,6 +169,11 @@ textarea{
     font-family: 'Francois One', sans-serif;
 
 }
+strong{
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+    display: block;
+}
 
 @media(max-width:850px){
 

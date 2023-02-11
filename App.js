@@ -67,8 +67,8 @@ function showNotes(){
             notesElm.innerHTML = html;
         }
         else{
-            notesObj.innerHTML = `<h2> <strong>Nothing to show here ):</strong>
-                                  Please use the "Add Note" section to add note.</h2>`
+            notesElm.innerHTML =  `<strong>Nothing to show here ):
+                                  Use "Add Note" section to add notes.</strong>`
         }
 }
 
