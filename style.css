@@ -196,6 +196,7 @@ strong{
     }
     textarea{
         font-size: 14px;
+        width: 26rem;
         font-family: 'Patua One', cursive;
         height: 32rem;
         border: 3px solid rgb(66, 152, 66);
