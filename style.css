@@ -195,13 +195,15 @@ strong{
         height: 44rem;
     }
     textarea{
+        height: 32rem;
         border: 3px solid rgb(66, 152, 66);
-        padding: 16rem 1rem;
+        padding: 1rem 1rem;
         margin: 2rem 4rem;
     }
     .text-area{
         margin: -1rem auto;
     }
+    
     .box-1{
         align-items: center;
         margin: 4rem 11rem;
