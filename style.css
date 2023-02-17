@@ -195,6 +195,7 @@ strong{
         height: 44rem;
     }
     textarea{
+        font-family: 'Patua One', cursive;
         height: 32rem;
         border: 3px solid rgb(66, 152, 66);
         padding: 1rem 1rem;
